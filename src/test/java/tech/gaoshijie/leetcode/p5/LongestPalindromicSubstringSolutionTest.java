@@ -1,7 +1,6 @@
 package tech.gaoshijie.leetcode.p5;
 
 import junit.framework.TestCase;
-import org.junit.Ignore;
 
 import java.util.Set;
 
@@ -12,7 +11,8 @@ public class LongestPalindromicSubstringSolutionTest extends TestCase {
     private LongestPalindromicSubstring solution;
 
     public void setUp() {
-        solution = new DoubleLoopSolution();
+//        solution = new DoubleLoopSolution();
+        solution = new DoubleLoopEnhancedSolution();
     }
 
     public void testCase1() {
